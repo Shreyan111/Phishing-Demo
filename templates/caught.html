@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Phishing Simulation</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .box {
+            background: white;
+            max-width: 700px;
+            margin: auto;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #c62828;
+        }
+
+        .code {
+            background: #eee;
+            padding: 15px;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>🚨 YOU HAVE BEEN PHISHED!</h1>
+
+    <h2>This was a controlled classroom simulation.</h2>
+
+    <p>
+        You entered information into a website controlled
+        by the attacker.
+    </p>
+
+    <div class="code">
+
+        <p><b>Victim IP:</b> {{ victim_ip }}</p>
+
+        <p>
+            <b>Username received by attacker:</b>
+            {{ username }}
+        </p>
+
+    </div>
+
+    <h3>What could happen in a real attack?</h3>
+
+    <p>
+        An attacker could potentially use stolen credentials
+        to attempt unauthorized access to other accounts.
+    </p>
+
+    <p>
+        They might also attempt to steal additional information
+        or access systems where the same password was reused.
+    </p>
+
+    <hr>
+
+    <h2>🛡️ Think before you click!</h2>
+
+</div>
+
+</body>
+
+</html>
