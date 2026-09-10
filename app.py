@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, send_file
 from datetime import datetime
-import os
 
 app = Flask(__name__)
 
